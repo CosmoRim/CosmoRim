@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<CosmoRim.CropHarvesterIsFucked>Harvester output is blocked or will infinitely loop.</CosmoRim.CropHarvesterIsFucked>
+	<CosmoRim.VRChipLabel>vr guide chip ({0})</CosmoRim.VRChipLabel>
+	<CosmoRim.VRChipDescription>Virtual Reality Simulation Guide, recorded by a master of the {0} skill to a single use chip, allows a pawn to use and very quickly absorb much more information to learn the {0} skill than they would during normal VR training.</CosmoRim.VRChipDescription>
+
+	<CosmoRim.VRSkillRecipeLabel>train skill ({0})</CosmoRim.VRSkillRecipeLabel>
+	<CosmoRim.VRSkillRecipeDesc>Train {0} skill in a simulation.</CosmoRim.VRSkillRecipeDesc>
+	<CosmoRim.VRSkillRecipeJobString>training {0} skill</CosmoRim.VRSkillRecipeJobString>
+
+	<CosmoRim.VRChipWritingLabel>record guide chip ({0})</CosmoRim.VRChipWritingLabel>
+	<CosmoRim.VRChipWritingDesc>Record a {0} skill guide chip.</CosmoRim.VRChipWritingDesc>
+	<CosmoRim.VRChipWritingJobString>recording {0} skill guide</CosmoRim.VRChipWritingJobString>
+	
+	<CosmoRim.VRChipTrainingLabel>train skill with chip ({0})</CosmoRim.VRChipTrainingLabel>
+	<CosmoRim.VRChipTrainingDesc>Train {0} skill in a simulation using a guide chip.</CosmoRim.VRChipTrainingDesc>
+	<CosmoRim.VRChipTrainingJobString>training {0} skill from guide</CosmoRim.VRChipTrainingJobString>
+
+</LanguageData>

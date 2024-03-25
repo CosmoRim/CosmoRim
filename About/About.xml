@@ -2,10 +2,12 @@
 <ModMetaData>
 	<name>CosmoRim - Vaulters</name>
 	<author>Neronix17</author>
-	<supportedVersions>
-		<li>1.4</li>
-	</supportedVersions>
 	<packageId>Neronix17.CosmoRim.Vaulters</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">CosmoRim/ModIcon</modIconPath>
+	<url>https://www.patreon.com/neronix17</url>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
 	<description>Expansive mod adding a large variety of industrial/spacer focused buildings, apparel, weapons and more.</description>
 	<modDependencies>
 		<li>

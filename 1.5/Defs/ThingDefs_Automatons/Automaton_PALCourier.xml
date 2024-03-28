@@ -46,7 +46,6 @@
 				<canUseMelee>false</canUseMelee>
 				<corpseEdible>false</corpseEdible>
 				<corpseRots>false</corpseRots>
-				<affectedByEMP>true</affectedByEMP>
 				<immuneToDisease>true</immuneToDisease>
 				<huntTarget>true</huntTarget>
 				<clearPassions>true</clearPassions>

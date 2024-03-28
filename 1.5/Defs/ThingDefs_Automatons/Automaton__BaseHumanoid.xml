@@ -36,6 +36,7 @@
 			<PainShockThreshold>10</PainShockThreshold>
 		</statBases>
 		<race>
+			<renderTree>Asimov_Automaton</renderTree>
 			<fleshType>Asimov_Automaton</fleshType>
 			<thinkTreeMain>Humanlike</thinkTreeMain>
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>

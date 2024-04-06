@@ -4,6 +4,8 @@
 	<ResearchTabDef>
 		<defName>CosRim_ResearchTab</defName>
 		<label>CosmoRim</label>
+		<generalTitle>CosmoRim research projects</generalTitle>
+		<generalDescription>Unlock advanced techology from CosmoRim at the Hi-Tech Research Bench.</generalDescription>
 	</ResearchTabDef>
 
 	<ResearchProjectDef Name="CosRim_ResearchBaseMain" Abstract="True">

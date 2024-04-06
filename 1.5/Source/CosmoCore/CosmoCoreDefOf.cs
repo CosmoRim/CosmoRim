@@ -13,17 +13,24 @@ namespace CosmoCore
     [DefOf]
     public static class CosmoCoreDefOf
     {
-        public static ThingDef CosRim_InsectoidThumper;
-        public static ThingDef CosRim_VRTerminal;
-        public static ThingDef CosRim_VRProgrammingBench;
-        public static ThingDef CosRim_VRChip_Blank;
+        public static ThingDef 
+            CosRim_InsectoidThumper,
+            CosRim_MacroCommsConsole,
+            CosRim_VRTerminal,
+            CosRim_VRProgrammingBench;
 
-        public static SoundDef CosRim_Sound_ThumperHit;
-        public static SoundDef CosRim_Sound_ThumperStartup;
-        public static SoundDef CosRim_Sound_ThumperShutdown;
+        public static ThingDef 
+            CosRim_VRChip_Blank;
 
-        public static ThingCategoryDef CosRim_VRChips;
+        public static SoundDef 
+            CosRim_Sound_ThumperHit,
+            CosRim_Sound_ThumperStartup,
+            CosRim_Sound_ThumperShutdown;
 
-        public static ResearchProjectDef CosRim_VRGuideChips;
+        public static ThingCategoryDef 
+            CosRim_VRChips;
+
+        public static ResearchProjectDef 
+            CosRim_VRGuideChips;
     }
 }

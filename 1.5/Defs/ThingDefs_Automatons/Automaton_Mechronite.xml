@@ -2,21 +2,24 @@
 <Defs>
 
 	<Asimov.PawnDef ParentName="CosRim_BaseHumanoidAutomaton">
-		<defName>CosRim_PALBuddy</defName>
-		<label>PAL Buddy</label>
-		<description>The PAL systems Buddy is the latest in humanoid domestic assistance, programmed with behavioural subroutines for all sorts of day to day tasks leaving you free to do whatever brings you joy! Buddy is even prepared with social capabilities and can behave entirely like a real friend for you.\n\nDisclaimer: Buddy and associated autonomous PAL products are NOT sentient, while they may seem to be at times, they are simply pretending, there is nothing to worry about!</description>
+		<defName>CosRim_Mechronite</defName>
+		<label>mechronite</label>
+		<description>//---------- INCOMING BROADCAST ---------//\n\nTrasmission Begins:\nA disturbing example of the results that a failed experiment in use of nanites to enhance the human form can have. A writhing goo-like mass of nanites commanded by a handful of control modules embedded in the swarm, formed mostly from converted organic mass in the first attempt to cure cancer with nanites using human test subjects in what is now a very public scandal for Lovette-Orwell Versatile Enhancements.\n\n'Mechronites' as they have been termed, are a growing cause for concern among the outer worlds that lack ease of access to higher technology, how they are making it through the massive void of space between colonised worlds is currently unknown.\n\nNotice for any who encounter:\nDo not allow them to make physical contact, the nanites can and will spread, converting those they infect, severing of parts they touch immediately is currently the only known means of survival.\n\n//----------- END OF BROADCAST ----------//</description>
 		<!-- Start of Asimov Data -->
 		<pawnSettings>
 			<!-- Body -->
 			<headTypeWhitelist>
-				<li>CosRim_Head_BuddyBasic</li>
+				<li>CosRim_Head_Mechronite</li>
 			</headTypeWhitelist>
 			<bodyTypeWhitelist>
+				<li>Male</li>
 				<li>Thin</li>
+				<li>Hulk</li>
+				<li>Fat</li>
 			</bodyTypeWhitelist>
 		</pawnSettings>
 		<customGraphics>
-			<bodyPath>CosmoRim/Pawn/Automaton/PAL/Buddy/Body/</bodyPath>
+			<bodyPath>CosmoRim/Pawn/Automaton/Mechronite/Body/</bodyPath>
 			<shaderType>CutoutComplex</shaderType>
 			<skinColorPairs>
 				<li>
@@ -37,7 +40,7 @@
 				<huntTarget>true</huntTarget>
 				<clearPassions>true</clearPassions>
 				<flattenSkills>true</flattenSkills>
-				<skillGainMulti>0.5</skillGainMulti>
+				<skillGainMulti>0</skillGainMulti>
 				<skillLossMulti>0</skillLossMulti>
 				<defaultSkillLevel>3</defaultSkillLevel>
 				<enabledWorkTypes>
@@ -156,9 +159,9 @@
 	</Asimov.PawnDef>
 
 	<PawnKindDef>
-		<defName>CosRim_PALBuddy</defName>
-		<label>PAL Buddy</label>
-		<race>CosRim_PALBuddy</race>
+		<defName>CosRim_Mechronite</defName>
+		<label>Mechronite</label>
+		<race>CosRim_Mechronite</race>
 		<combatPower>40</combatPower>
 		<isFighter>false</isFighter>
 		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>

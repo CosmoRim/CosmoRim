@@ -22,4 +22,15 @@
 		</modExtensions>
 	</HeadTypeDef>
 
+	<HeadTypeDef ParentName="CosRim_AutomatonHeadBase">
+		<defName>CosRim_Head_Mechronite</defName>
+		<graphicPath>CosmoRim/Pawn/Automaton/Mechronite/Head/Normal</graphicPath>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+				<shaderType>Cutout</shaderType>
+			</li>
+		</modExtensions>
+	</HeadTypeDef>
+
 </Defs>

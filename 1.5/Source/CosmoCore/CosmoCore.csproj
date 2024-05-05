@@ -33,8 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.2.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Lib.Harmony.2.2.2\lib\net472\0Harmony.dll</HintPath>
+    <Reference Include="0Harmony, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Lib.Harmony.2.3.3\lib\net48\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
@@ -43,6 +43,7 @@
     </Reference>
     <Reference Include="Assembly-CSharp_public_1.5">
       <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp_public_1.5.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -54,6 +55,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="TabulaRasa">
       <HintPath>..\..\..\..\..\_Libraries\Tabula Rasa\1.5\Assemblies\TabulaRasa.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
@@ -93,7 +95,7 @@
     <Compile Include="Comps\Comp_EnhancedBeacon.cs" />
     <Compile Include="CosmoCoreStartup.cs" />
     <Compile Include="Harmony\Patch_DefGenerator_GenerateImpliedDefs_PreResolve.cs" />
-    <Compile Include="Patch_LearningGiver_Radiotalking_TryFindCommsConsole.cs" />
+    <Compile Include="Harmony\Patch_LearningGiver_Radiotalking_TryFindCommsConsole.cs" />
     <Compile Include="Utilities\CropHarvestUtil.cs" />
     <Compile Include="Harmony\Patch_InfestationCellFinder_GetScoreAt.cs" />
     <Compile Include="CosmoCoreDefOf.cs" />
@@ -111,6 +113,5 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

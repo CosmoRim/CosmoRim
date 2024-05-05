@@ -41,8 +41,8 @@ namespace CosmoCore
             ThingDef thing = new ThingDef
             {
                 defName = "CosRim_VRChip_" + skill.defName,
-                label = "VRChipLabel".Translate(skill.label),
-                description = "VRChipDescription".Translate(skill.label),
+                label = "CosmoRim.VRChipLabel".Translate(skill.label),
+                description = "CosmoRim.VRChipDescription".Translate(skill.label),
                 thingClass = typeof(ThingWithComps),
                 category = ThingCategory.Item,
                 drawerType = DrawerType.MapMeshOnly,

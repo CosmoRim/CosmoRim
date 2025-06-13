@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<WorkTypeDef>
+		<defName>CosRim_VR</defName>
+		<labelShort>VR</labelShort>
+		<pawnLabel>VR trainee</pawnLabel>
+		<gerundLabel>using VR device</gerundLabel>
+		<description>Do tasks related to VR training.</description>
+		<verb>train skill</verb>
+		<naturalPriority>150</naturalPriority>
+		<alwaysStartActive>true</alwaysStartActive>
+		<requireCapableColonist>false</requireCapableColonist>
+		<workTags>
+			<li>AllWork</li>
+		</workTags>
+	</WorkTypeDef>
+
+</Defs>

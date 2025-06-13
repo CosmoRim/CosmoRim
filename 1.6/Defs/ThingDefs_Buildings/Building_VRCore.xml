@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>CosRim_VRCore</defName>
+		<label>vr processing core</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/VRCore</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4, 4)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<uiIconScale>0.8</uiIconScale>
+		<staticSunShadowHeight>0.35</staticSunShadowHeight>
+		<fillPercent>0.4</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<pathCost>42</pathCost>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MarketValue>4500</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Mass>20</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,3)</size>
+		<costList>
+			<Steel>300</Steel>
+			<ComponentIndustrial>20</ComponentIndustrial>
+		</costList>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+		</building>
+		<designationCategory>CosRim_CosmoRim</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<defaultPlacingRot>North</defaultPlacingRot>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>5000</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Breakdownable" />
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>1.5</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+				<maxDistance>12</maxDistance>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>CosRim_VirtualReality</li>
+		</researchPrerequisites>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>CosRim_SubCatMisc</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

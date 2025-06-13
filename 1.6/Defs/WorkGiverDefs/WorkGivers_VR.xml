@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>CosRim_DoBillsVRTraining</defName>
+		<label>train skills in vr</label>
+		<verb>train skills</verb>
+		<gerund>train skills at</gerund>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>CosRim_VR</workType>
+		<priorityInType>2</priorityInType>
+		<fixedBillGiverDefs>
+			<li>CosRim_VRTerminal</li>
+		</fixedBillGiverDefs>
+		<prioritizeSustains>true</prioritizeSustains>
+		<requiredCapacities>
+			<li>Manipulation</li>
+			<li>Sight</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>CosRim_DoBillsVRProgramming</defName>
+		<label>program vr chips</label>
+		<verb>program vr chips</verb>
+		<gerund>program vr chips at</gerund>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>CosRim_VR</workType>
+		<priorityInType>1</priorityInType>
+		<fixedBillGiverDefs>
+			<li>CosRim_VRProgrammingBench</li>
+		</fixedBillGiverDefs>
+		<prioritizeSustains>true</prioritizeSustains>
+		<requiredCapacities>
+			<li>Manipulation</li>
+			<li>Sight</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+</Defs>

@@ -6,7 +6,7 @@
 	<modIconPath IgnoreIfNoMatchingField="True">CosmoRim/ModIcon</modIconPath>
 	<url>https://www.patreon.com/neronix17</url>
 	<supportedVersions>
-		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<description>Expansive mod adding a large variety of industrial/spacer focused buildings, apparel, weapons and more.</description>
 	<modDependencies>

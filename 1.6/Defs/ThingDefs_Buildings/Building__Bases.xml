@@ -201,7 +201,7 @@
 		</inspectorTabs>
 	</ThingDef>
 
-	<ThingDef Name="CosRimWallLightBase" ParentName="CosRimFurnitureBase" Abstract="True">
+	<!-- <ThingDef Name="CosRimWallLightBase" ParentName="CosRimFurnitureBase" Abstract="True">
 		<description>A wall mounted lighting fixture.</description>
 		<graphicData>
 			<texPath>CosmoRim/Buildings/Furniture/WallLamp</texPath>
@@ -234,18 +234,14 @@
 			<canPlaceOverWall>true</canPlaceOverWall>
 			<allowWireConnection>false</allowWireConnection>
 		</building>
-		<placeWorkers>
-			<li>VanillaFurnitureExpanded.PlaceWorker_OnWall</li>
-		</placeWorkers>
 		<costList>
 			<Steel>15</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Flickable" />
-			<li Class="VanillaFurnitureExpanded.CompProperties_MountableOnWall" />
 		</comps>
-	</ThingDef>
+	</ThingDef> -->
 
 	<ThingDef ParentName="CosRimBuildingBase" Name="CosRimSculptureBase" Abstract="True">
 		<thingClass>Building_Art</thingClass>

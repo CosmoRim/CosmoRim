@@ -39,7 +39,7 @@
 		</comps>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatFurnitureVault</subCategory>
+				<subCategory>CosRim_SubCatFurniture</subCategory>
 				<showOnlyInCategory>true</showOnlyInCategory>
 			</li>
 		</modExtensions>
@@ -83,7 +83,7 @@
 		</comps>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatFurnitureVault</subCategory>
+				<subCategory>CosRim_SubCatFurniture</subCategory>
 				<showOnlyInCategory>true</showOnlyInCategory>
 			</li>
 		</modExtensions>
@@ -113,7 +113,7 @@
 		</costList>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatFurnitureVault</subCategory>
+				<subCategory>CosRim_SubCatFurniture</subCategory>
 				<showOnlyInCategory>true</showOnlyInCategory>
 			</li>
 		</modExtensions>
@@ -170,7 +170,7 @@
 		</comps>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatFurnitureVault</subCategory>
+				<subCategory>CosRim_SubCatFurniture</subCategory>
 				<showOnlyInCategory>true</showOnlyInCategory>
 			</li>
 		</modExtensions>
@@ -223,7 +223,7 @@
 		</comps>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatFurnitureVault</subCategory>
+				<subCategory>CosRim_SubCatFurniture</subCategory>
 				<showOnlyInCategory>true</showOnlyInCategory>
 			</li>
 		</modExtensions>
@@ -265,7 +265,7 @@
 		</comps>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatFurnitureVault</subCategory>
+				<subCategory>CosRim_SubCatFurniture</subCategory>
 				<showOnlyInCategory>true</showOnlyInCategory>
 			</li>
 		</modExtensions>
@@ -314,7 +314,7 @@
 		</comps>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatFurnitureVault</subCategory>
+				<subCategory>CosRim_SubCatFurniture</subCategory>
 				<showOnlyInCategory>true</showOnlyInCategory>
 			</li>
 		</modExtensions>
@@ -360,7 +360,7 @@
 		</comps>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatFurnitureVault</subCategory>
+				<subCategory>CosRim_SubCatFurniture</subCategory>
 				<showOnlyInCategory>true</showOnlyInCategory>
 			</li>
 		</modExtensions>
@@ -400,7 +400,7 @@
 		</comps>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatFurnitureVault</subCategory>
+				<subCategory>CosRim_SubCatFurniture</subCategory>
 				<showOnlyInCategory>true</showOnlyInCategory>
 			</li>
 		</modExtensions>
@@ -460,7 +460,7 @@
 		</comps>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatFurnitureVault</subCategory>
+				<subCategory>CosRim_SubCatFurniture</subCategory>
 				<showOnlyInCategory>false</showOnlyInCategory>
 			</li>
 		</modExtensions>
@@ -468,7 +468,7 @@
 
 	<!-- ==================== Wall Lamps ==================== -->
 
-	<ThingDef ParentName="CosRimWallLightBase">
+	<!-- <ThingDef ParentName="CosRimWallLightBase">
 		<defName>CosRim_VaultWallLamp</defName>
 		<label>vault wall lamp</label>
 		<graphicData>
@@ -533,11 +533,11 @@
 		</comps>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatFurnitureVault</subCategory>
+				<subCategory>CosRim_SubCatFurniture</subCategory>
 				<showOnlyInCategory>false</showOnlyInCategory>
 			</li>
 		</modExtensions>
-	</ThingDef>
+	</ThingDef> -->
 
 	<!-- ==================== Vault Desk ==================== -->
 
@@ -588,7 +588,7 @@
 		</comps>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatFurnitureVault</subCategory>
+				<subCategory>CosRim_SubCatFurniture</subCategory>
 				<showOnlyInCategory>false</showOnlyInCategory>
 			</li>
 		</modExtensions>

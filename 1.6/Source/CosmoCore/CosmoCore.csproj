@@ -100,8 +100,6 @@
     <Compile Include="Harmony\Patch_PassingShip_CommFloatMenuOption.cs" />
     <Compile Include="Harmony\Patch_TradeShip_ColonyThingsWillingToBuy.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_CropHarvester.cs" />
-    <Compile Include="Utilities\SettingsUtil.cs" />
-    <Compile Include="Utilities\LogUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CosmoCoreMod.cs" />
     <Compile Include="CosmoCoreSettings.cs" />

@@ -46,13 +46,16 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_AmbientSound">
+				<sound>CosRim_Sound_ThumperAmbient</sound>
+				<disabledOnUnpowered>true</disabledOnUnpowered>
+			</li>
 		</comps>
 		<specialDisplayRadius>32.4</specialDisplayRadius>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>CosRim_CosmoRim</designationCategory>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
-			<soundAmbient>CosRim_Sound_ThumperAmbient</soundAmbient>
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
@@ -98,8 +101,7 @@
 		</statBases>
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 		<costList>
-			<Steel>60</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<Steel>20</Steel>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -108,12 +110,15 @@
 				<shortCircuitInRain>false</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_AmbientSound">
+				<sound>CosRim_Sound_ThumperAmbient</sound>
+				<disabledOnUnpowered>true</disabledOnUnpowered>
+			</li>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>CosRim_CosmoRim</designationCategory>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
-			<soundAmbient>CosRim_Sound_ThumperAmbient</soundAmbient>
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>

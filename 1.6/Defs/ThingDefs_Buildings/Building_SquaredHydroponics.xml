@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>CosRim_SquaredHydroponicsBasin</defName>
+		<label>square hydroponics basin</label>
+		<description>An artificial nutrient bath for growing plants. The nutrients pumps must work continuously; the plants will die if power is cut.</description>
+		<noRightClickDraftAttack>true</noRightClickDraftAttack>
+		<thingClass>Building_PlantGrower</thingClass>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/GrowPod</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(221, 195, 101)</color>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<castEdgeShadows>true</castEdgeShadows>
+		<altitudeLayer>LowPlant</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>30</pathCost>
+		<constructEffect>ConstructMetal</constructEffect>
+		<fillPercent>0.30</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<WorkToBuild>2800</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<Cleanliness>-3</Cleanliness>
+		</statBases>
+		<size>(1,1)</size>
+		<costList>
+			<Steel>15</Steel>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<fertility>2.8</fertility>
+		<building>
+			<defaultPlantToGrow>Plant_Rice</defaultPlantToGrow>
+			<sowTag>Hydroponic</sowTag>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+			<paintable>true</paintable>
+		</building>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>15</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable" />
+		</comps>
+		<researchPrerequisites>
+			<li>Hydroponics</li>
+		</researchPrerequisites>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>CosRim_CosmoRim</designationCategory>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>CosRim_SubCatProduction</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

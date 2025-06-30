@@ -7,27 +7,19 @@
       "RelativeMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|f:\\rwmodcategories\\neronix17\\cosmorim\\cosmorim - core\\1.6\\source\\cosmocore\\cosmocoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|F:\\RWModCategories\\Neronix17\\CosmoRim\\CosmoRim - Core\\1.6\\Source\\CosmoCore\\cosmocoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|solutionrelative:cosmocoremod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|f:\\rwmodcategories\\neronix17\\cosmorim\\cosmorim - core\\1.6\\source\\cosmocore\\cosmocoresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|F:\\RWModCategories\\Neronix17\\CosmoRim\\CosmoRim - Core\\1.6\\Source\\CosmoCore\\cosmocoresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|solutionrelative:cosmocoresettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|f:\\rwmodcategories\\neronix17\\cosmorim\\cosmorim - core\\1.6\\source\\cosmocore\\cosmocorestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|F:\\RWModCategories\\Neronix17\\CosmoRim\\CosmoRim - Core\\1.6\\Source\\CosmoCore\\cosmocorestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|solutionrelative:cosmocorestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|f:\\rwmodcategories\\neronix17\\cosmorim\\cosmorim - core\\1.6\\source\\cosmocore\\utilities\\settingsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|solutionrelative:utilities\\settingsutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|f:\\rwmodcategories\\neronix17\\cosmorim\\cosmorim - core\\1.6\\source\\cosmocore\\utilities\\logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|solutionrelative:utilities\\logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|f:\\rwmodcategories\\neronix17\\cosmorim\\cosmorim - core\\1.6\\source\\cosmocore\\harmony\\patch_defgenerator_generateimplieddefs_preresolve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|F:\\RWModCategories\\Neronix17\\CosmoRim\\CosmoRim - Core\\1.6\\Source\\CosmoCore\\harmony\\patch_defgenerator_generateimplieddefs_preresolve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC77A95B-085F-46D1-B375-3701203370BD}|CosmoCore.csproj|solutionrelative:harmony\\patch_defgenerator_generateimplieddefs_preresolve.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -52,7 +44,7 @@
               "RelativeDocumentMoniker": "CosmoCoreMod.cs",
               "ToolTip": "F:\\RWModCategories\\Neronix17\\CosmoRim\\CosmoRim - Core\\1.6\\Source\\CosmoCore\\CosmoCoreMod.cs",
               "RelativeToolTip": "CosmoCoreMod.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwEMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T20:29:24.472Z",
               "EditorCaption": ""
@@ -80,21 +72,7 @@
               "RelativeToolTip": "CosmoCoreStartup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:29:22.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SettingsUtil.cs",
-              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\CosmoRim\\CosmoRim - Core\\1.6\\Source\\CosmoCore\\Utilities\\SettingsUtil.cs",
-              "RelativeDocumentMoniker": "Utilities\\SettingsUtil.cs",
-              "ToolTip": "F:\\RWModCategories\\Neronix17\\CosmoRim\\CosmoRim - Core\\1.6\\Source\\CosmoCore\\Utilities\\SettingsUtil.cs",
-              "RelativeToolTip": "Utilities\\SettingsUtil.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAIwEwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:29:04.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T20:29:22.922Z"
             },
             {
               "$type": "Document",
@@ -104,27 +82,14 @@
               "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
               "ToolTip": "F:\\RWModCategories\\Neronix17\\CosmoRim\\CosmoRim - Core\\1.6\\Source\\CosmoCore\\Properties\\AssemblyInfo.cs",
               "RelativeToolTip": "Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T20:28:36.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LogUtil.cs",
-              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\CosmoRim\\CosmoRim - Core\\1.6\\Source\\CosmoCore\\Utilities\\LogUtil.cs",
-              "RelativeDocumentMoniker": "Utilities\\LogUtil.cs",
-              "ToolTip": "F:\\RWModCategories\\Neronix17\\CosmoRim\\CosmoRim - Core\\1.6\\Source\\CosmoCore\\Utilities\\LogUtil.cs",
-              "RelativeToolTip": "Utilities\\LogUtil.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:27:53.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Patch_DefGenerator_GenerateImpliedDefs_PreResolve.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\CosmoRim\\CosmoRim - Core\\1.6\\Source\\CosmoCore\\Harmony\\Patch_DefGenerator_GenerateImpliedDefs_PreResolve.cs",
               "RelativeDocumentMoniker": "Harmony\\Patch_DefGenerator_GenerateImpliedDefs_PreResolve.cs",
@@ -132,12 +97,11 @@
               "RelativeToolTip": "Harmony\\Patch_DefGenerator_GenerateImpliedDefs_PreResolve.cs",
               "ViewState": "AgIAALEAAAAAAAAAAAAmwCwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:27:45.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T20:27:45.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "CosmoCoreDefOf.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\CosmoRim\\CosmoRim - Core\\1.6\\Source\\CosmoCore\\CosmoCoreDefOf.cs",
               "RelativeDocumentMoniker": "CosmoCoreDefOf.cs",
@@ -145,8 +109,7 @@
               "RelativeToolTip": "CosmoCoreDefOf.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:27:45.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T20:27:45.952Z"
             }
           ]
         }

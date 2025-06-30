@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CosmoRimCore")]
+[assembly: AssemblyTitle("CosmoRim - Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CosmoRimCore")]
+[assembly: AssemblyCompany("Outpost 21")]
+[assembly: AssemblyProduct("CosmoRim - Core")]
 [assembly: AssemblyCopyright("Copyright © Neronix17 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

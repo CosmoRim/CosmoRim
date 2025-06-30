@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<Asimov.PawnDef ParentName="BasePawn" Name="CosRim_BaseHumanoidAutomaton" Abstract="True">
@@ -65,9 +65,6 @@
 					<minAge>0</minAge>
 				</li>
 			</lifeStageAges>
-			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
-			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
-			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 			<specialShadowData>
 				<volume>(0.3, 0.8, 0.4)</volume>
 				<offset>(0,0,-0.3)</offset>

@@ -3,7 +3,7 @@
 
 	<ThingDef Name="CosmoRimLaserGunBase" ParentName="BaseWeapon" Abstract="True">
 		<techLevel>Ultra</techLevel>
-		<thingClass>VanillaWeaponsExpandedLaser.LaserGun</thingClass>
+		<thingClass>VEF.Weapons.LaserGun</thingClass>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
@@ -36,7 +36,7 @@
 
 	<ThingDef Name="CosmoRimLaserBeamGraphicBase">
 		<defName>CosRim_LaserBeamGraphic</defName>
-		<thingClass>VanillaWeaponsExpandedLaser.LaserBeamGraphic</thingClass>
+		<thingClass>VEF.Weapons.LaserBeamGraphic</thingClass>
 		<drawOffscreen>true</drawOffscreen>
 		<label>Laser beam</label>
 		<category>Projectile</category>
@@ -47,7 +47,7 @@
 	</ThingDef>
 
 	<ThingDef Name="CosmoRimLaserBeamProjectile" ParentName="BaseBullet" Abstract="True">
-		<thingClass>VanillaWeaponsExpandedLaser.LaserBeam</thingClass>
+		<thingClass>VEF.Weapons.LaserBeam</thingClass>
 		<drawOffscreen>true</drawOffscreen>
 		<beamGraphic>CosRim_LaserBeamGraphic</beamGraphic>
 		<graphicData>

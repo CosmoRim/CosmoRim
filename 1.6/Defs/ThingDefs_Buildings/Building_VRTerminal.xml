@@ -80,12 +80,12 @@
 		<researchPrerequisites>
 			<li>CosRim_VirtualReality</li>
 		</researchPrerequisites>
-	</ThingDef>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
 				<subCategory>CosRim_SubCatMisc</subCategory>
 				<showOnlyInCategory>true</showOnlyInCategory>
 			</li>
 		</modExtensions>
+	</ThingDef>
 
 </Defs>

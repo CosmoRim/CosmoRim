@@ -50,8 +50,8 @@
 	</TabulaRasa.DesignatorSubCategoryDef>
 
 	<TabulaRasa.DesignatorSubCategoryDef>
-		<defName>CosRim_SubCatFurnitureVault</defName>
-		<label>Furniture (Vault)</label>
+		<defName>CosRim_SubCatFurniture</defName>
+		<label>Furniture</label>
 		<designationCategory>CosRim_CosmoRim</designationCategory>
 	</TabulaRasa.DesignatorSubCategoryDef>
 

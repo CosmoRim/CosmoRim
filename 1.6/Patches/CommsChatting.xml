@@ -6,7 +6,7 @@
 		<match Class="PatchOperationAdd">
 			<xpath>/Defs/ThingDef[defName="ChatComms"]/thingDefs</xpath>
 			<value>
-				<li>CosRim_MicroCommsConsole</li>
+				<li>CosRim_MacroCommsConsole</li>
 			</value>
 		</match>
 	</Operation>

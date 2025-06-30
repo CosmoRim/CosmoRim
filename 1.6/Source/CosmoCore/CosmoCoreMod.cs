@@ -1,14 +1,11 @@
 ﻿using HarmonyLib;
-using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
+using TabulaRasa;
 
 namespace CosmoCore
 {
@@ -32,7 +29,7 @@ namespace CosmoCore
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
             CurrentVersion = $"{version.Major}.{version.Minor}.{version.Build}";
 
-            LogUtil.LogMessage($"{CurrentVersion} ::");
+            Log.Message($":: CosmoRim :: ".Colorize(Color.cyan) + $"{CurrentVersion} ::");
 
             if (Prefs.DevMode)
             {
@@ -68,7 +65,7 @@ namespace CosmoCore
 
         public void DoOptionsCategoryContents(Listing_Standard listing)
         {
-            listing.Note("You will need to restart the game for most of these settings to take effect.", GameFont.Tiny);
+            listing.Note("You will need to restart the game for some settings to take effect.", GameFont.Tiny);
             listing.GapLine();
             DoOptions_Defaults(listing);
             DoOptions_Thumper(listing);
@@ -97,8 +94,7 @@ namespace CosmoCore
             collapsedCategories["Cat_Thumper"] = collapsed;
             if (!collapsedCategories["Cat_Thumper"])
             {
-                listing.Label("Some changes may require a restart for them to take effect.");
-                listing.CheckboxLabeled("Thumper Sound Effect", ref settings.soundEnabled, "Whether or not the continuous 'Thump' is played.");
+                listing.CheckboxLabeled("Thumper Sound Effect", ref settings.soundEnabled, "Whether or not the regularly repeating 'Thump' is played. Could understandably be annoying especially for those who play on high speeds.");
                 listing.AddLabeledSlider($"Range: {settings.thumperRange}", ref settings.thumperRange, 6f, 45f, "Min: 6.0", "Max: 45.0", 0.1f);
                 CosmoCoreStartup.RunAdjustments_Thumper(settings);
             }

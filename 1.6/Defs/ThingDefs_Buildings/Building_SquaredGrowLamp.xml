@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="LampBase">
+		<defName>CosRim_SquaredGrowLamp</defName>
+		<label>square grow lamp</label>
+		<description>A spacer lamp which lights a small area brightly enough to grow crops, at a more reasonable power cost than sun lamps. Automatically turns itself off at night.</description>
+		<thingClass>Building_SunLamp</thingClass>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/SquaredGrowLamp</texPath>
+			<drawSize>(3, 3)</drawSize>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(221, 195, 101)</color>
+		</graphicData>
+		<blockWind>true</blockWind>
+		<tickerType>Rare</tickerType>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+			<Mass>5</Mass>
+		</statBases>
+		<building>
+			<paintable>true</paintable>
+		</building>
+		<costList>
+			<Steel>20</Steel>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<overlightRadius>7.0</overlightRadius>
+				<glowRadius>3.99</glowRadius>
+				<glowColor>(370,370,370,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>600</basePowerConsumption>
+				<powerUpgrades>
+					<li>
+						<researchProject>ColoredLights</researchProject>
+						<factor>0.5</factor>
+					</li>
+				</powerUpgrades>
+			</li>
+			<li Class="CompProperties_Schedule">
+				<startTime>0.25</startTime>
+				<endTime>0.8</endTime>
+				<offMessage>Off for plant resting period</offMessage>
+			</li>
+		</comps>
+		<specialDisplayRadius>2.95</specialDisplayRadius>
+		<designationCategory>CosRim_CosmoRim</designationCategory>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
+				<subCategory>CosRim_SubCatProduction</subCategory>
+				<showOnlyInCategory>true</showOnlyInCategory>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

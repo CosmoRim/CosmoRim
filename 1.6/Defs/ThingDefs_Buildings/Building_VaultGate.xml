@@ -67,9 +67,10 @@
 				<label>Open Gate</label>
 				<description>Manually open vault gate.</description>
 			</li>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatStructural</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Structural</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>

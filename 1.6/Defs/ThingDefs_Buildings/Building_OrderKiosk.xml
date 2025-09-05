@@ -57,9 +57,10 @@
 		</placeWorkers>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
-				<subCategory>CosRim_SubCatMisc</subCategory>
-				<showOnlyInCategory>true</showOnlyInCategory>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Misc</li>
+				</subcategories>
 			</li>
 		</modExtensions>
 	</ThingDef>

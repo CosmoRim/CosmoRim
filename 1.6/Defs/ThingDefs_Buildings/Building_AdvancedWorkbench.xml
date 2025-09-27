@@ -36,6 +36,8 @@
 		</costList>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workTableRoomRole>Workshop</workTableRoomRole>
+			<workTableNotInRoomRoleFactor>0.8</workTableNotInRoomRoleFactor>
 		</building>
 		<inspectorTabs>
 			<li>ITab_Bills</li>

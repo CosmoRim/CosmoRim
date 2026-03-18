@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef Name="CosRimAirlockBase" ParentName="CosRimDoorBase" Abstract="True">
+		<description>Powered doors with automatic opening, not easy to damage, and airtight while closed. Minimal slowdown on pawns passing through.</description>
+		<thingClass>TabulaRasa.Building_MultiMoverDoor</thingClass>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>750</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+		</statBases>
+		<building>
+			<poweredDoorOpenSpeedFactor>4</poweredDoorOpenSpeedFactor>
+			<unpoweredDoorOpenSpeedFactor>2</unpoweredDoorOpenSpeedFactor>
+			<unpoweredDoorCloseSpeedFactor>2</unpoweredDoorCloseSpeedFactor>
+			<isAirtight>true</isAirtight>
+			<blueprintClass>Blueprint_Build</blueprintClass>
+			<isSupportDoor>true</isSupportDoor>
+			<blueprintGraphicData>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>EdgeDetect</shaderType>
+				<drawSize>(3, 3)</drawSize>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>CutoutComplex</shaderType>
+				<drawSize>(3, 3)</drawSize>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>CutoutComplex</shaderType>
+				<drawSize>(3, 3)</drawSize>
+			</doorSupportGraphic>
+			<soundDoorOpenPowered>SecurityDoor_Open</soundDoorOpenPowered>
+			<soundDoorClosePowered>SecurityDoor_BeginClosing</soundDoorClosePowered>
+			<soundDoorOpenManual>SecurityDoor_Open</soundDoorOpenManual>
+			<soundDoorCloseManual>SecurityDoor_BeginClosing</soundDoorCloseManual>
+			<soundDoorCloseEnd>SecurityDoor_EndClosing</soundDoorCloseEnd>
+		</building>
+		<stuffCategories Inherit="False">
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>15</costStuffCount>
+		<costList Inherit="False">
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Airlocks</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Atmosphere</defName>
+		<label>airlock (s, atmosphere)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Atmos/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Atmos/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Atmos/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Atmos/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Atmos/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Atmos/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Basic</defName>
+		<label>airlock (s, basic)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Basic/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Basic/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Basic/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Basic/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Basic/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Basic/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Cargo</defName>
+		<label>airlock (s, cargo)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Cargo/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Cargo/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Cargo/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Cargo/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Cargo/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Cargo/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_CentComm</defName>
+		<label>airlock (s, cent comm)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/CentComm/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/CentComm/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/CentComm/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/CentComm/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/CentComm/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/CentComm/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Chemistry</defName>
+		<label>airlock (s, chemistry)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Chemistry/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Chemistry/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Chemistry/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Chemistry/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Chemistry/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Chemistry/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Command</defName>
+		<label>airlock (s, command)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Command/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Command/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Command/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Command/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Command/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Command/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Engineering</defName>
+		<label>airlock (s, engineering)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Engineering/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Engineering/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Engineering/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Engineering/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Engineering/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Engineering/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Hydroponics</defName>
+		<label>airlock (s, hydroponics)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Hydroponics/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Hydroponics/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Hydroponics/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Hydroponics/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Hydroponics/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Hydroponics/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Maintenance</defName>
+		<label>airlock (s, maintenance)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Maintenance/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Maintenance/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Maintenance/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Maintenance/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Maintenance/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Maintenance/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Medical</defName>
+		<label>airlock (s, medical)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Medical/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Medical/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Medical/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Medical/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Medical/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Medical/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Salvage</defName>
+		<label>airlock (s, salvage)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Salvage/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Salvage/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Salvage/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Salvage/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Salvage/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Salvage/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Science</defName>
+		<label>airlock (s, science)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Science/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Science/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Science/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Science/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Science/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Science/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Security</defName>
+		<label>airlock (s, security)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Security/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Security/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Security/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Security/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Security/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Security/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Syndicate</defName>
+		<label>airlock (s, syndicate)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Syndicate/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Syndicate/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Syndicate/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Syndicate/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Syndicate/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Syndicate/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockStandard_Virology</defName>
+		<label>airlock (s, virology)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Standard/Virology/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Standard/Virology/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Virology/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Virology/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Standard/Virology/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Standard/Virology/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockGlass_Basic</defName>
+		<label>airlock (g, basic)</label>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Glass/Basic/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Glass/Basic/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Glass/Basic/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Glass/Basic/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Glass/Basic/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_MultiMoverDoor">
+				<rightMoverData>
+					<texPath>CosmoRim/Buildings/Airlock/Glass/Basic/DoorMoverR</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+				</rightMoverData>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRimAirlockBase">
+		<defName>CosRim_AirlockMisc_External</defName>
+		<label>airlock (external)</label>
+		<thingClass>Building_SupportedDoor</thingClass>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Airlock/Misc/External/DoorMover</texPath>
+		</graphicData>
+		<uiIconPath>CosmoRim/Buildings/Airlock/Misc/External/Door_MenuIcon_south</uiIconPath>
+		<building>
+			<blueprintGraphicData>
+				<texPath>CosmoRim/Buildings/Airlock/Misc/External/Door_MenuIcon</texPath>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Misc/External/DoorTop</texPath>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>CosmoRim/Buildings/Airlock/Misc/External/DoorSupport</texPath>
+			</doorSupportGraphic>
+		</building>
+	</ThingDef>
+
+</Defs>

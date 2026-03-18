@@ -33,7 +33,7 @@
 	</ThingDef>
 
 	<ThingDef Name="CosRimDoorBase" ParentName="CosRimBuildingBase" Abstract="True">
-		<description>Self powered doors with automatic opening. Minimal slowdown on pawns passing through.</description>
+		<description>Powered doors with automatic opening. Minimal slowdown on pawns passing through.</description>
 		<thingClass>Building_Door</thingClass>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -75,7 +75,7 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<costList>
 			<Steel>50</Steel>
-			<ComponentSpacer>2</ComponentSpacer>
+			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<researchPrerequisites>
 			<li>Autodoors</li>
@@ -90,13 +90,10 @@
 				<allowNonPlayer>true</allowNonPlayer>
 			</li>
 			<li Class="CompProperties_Power">
-				<compClass>CompPowerTransmitter</compClass>
-				<transmitsPower>true</transmitsPower>
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>50</basePowerConsumption>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="TabulaRasa.DefModExt_SelfPoweredDoor" />
-		</modExtensions>
 	</ThingDef>
 
 	<ThingDef Name="CosRimFurnitureBase" ParentName="CosRimBuildingBase" Abstract="True">

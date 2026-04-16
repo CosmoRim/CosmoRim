@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>CosRim_AcidVat</defName>
 		<label>acid vat</label>
-		<description>A vat of acid built to dissolve corpses, with the lack of space Vaulters often experience in their isolation, they tend to dispose of the dead in as an efficient way as possible.</description>
+		<description>A vat of acid built to dissolve corpses. A highly space efficient way to dispose of bodies without having to keep an eye on it like with cremation.</description>
 		<thingClass>TabulaRasa.Building_GraveAdv</thingClass>
 		<containedPawnsSelectable>true</containedPawnsSelectable>
 		<graphicData>

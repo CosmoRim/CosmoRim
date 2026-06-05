@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BodyDef>
+		<defName>CosRim_QuadWheeledAutomaton</defName>
+		<label>quad wheeled automaton</label>
+		<corePart>
+			<def>CosRim_AutomatonThorax</def>
+			<customLabel>chassis</customLabel>
+			<height>Middle</height>
+			<depth>Outside</depth>
+            <groups>
+				<li>FullHead</li>
+				<li>HeadAttackTool</li>
+                <li>Torso</li>
+            </groups>
+			<parts>
+				<li>
+					<def>CosRim_AutomatonArm</def>
+					<customLabel>arm</customLabel>
+					<coverage>0.2</coverage>
+					<groups>
+						<li>Arms</li>
+					</groups>
+					<parts>
+						<li>
+							<def>CosRim_AutomatonHand</def>
+							<customLabel>arm gimbal</customLabel>
+							<coverage>0.2</coverage>
+							<height>Bottom</height>
+							<groups>
+								<li>Hands</li>
+							</groups>
+							<parts>
+								<li>
+									<def>CosRim_AutomatonFinger</def>
+									<customLabel>manipulation clamp</customLabel>
+									<coverage>0.15</coverage>
+									<groups>
+										<li>Hands</li>
+									</groups>
+								</li>
+							</parts>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>CosRim_AutomatonBrain</def>
+					<coverage>0.10</coverage>
+					<depth>Inside</depth>
+					<groups>
+						<li>UpperHead</li>
+						<li>FullHead</li>
+					</groups>
+				</li>
+				<li>
+					<def>CosRim_AutomatonSightSensor</def>
+					<customLabel>left sight sensor</customLabel>
+					<coverage>0.05</coverage>
+					<groups>
+						<li>FullHead</li>
+						<li>Eyes</li>
+					</groups>
+				</li>
+				<li>
+					<def>CosRim_AutomatonSightSensor</def>
+					<customLabel>right sight sensor</customLabel>
+					<coverage>0.05</coverage>
+					<groups>
+						<li>FullHead</li>
+						<li>Eyes</li>
+					</groups>
+				</li>
+				<li>
+					<def>CosRim_AutomatonSoundSensor</def>
+					<customLabel>left sound sensor</customLabel>
+					<coverage>0.05</coverage>
+					<groups>
+						<li>UpperHead</li>
+						<li>FullHead</li>
+					</groups>
+				</li>
+				<li>
+					<def>CosRim_AutomatonSoundSensor</def>
+					<customLabel>right sound sensor</customLabel>
+					<coverage>0.05</coverage>
+					<groups>
+						<li>UpperHead</li>
+						<li>FullHead</li>
+					</groups>
+				</li>
+				<li>
+					<def>CosRim_AutomatonLeg</def>
+					<customLabel>rear axle</customLabel>
+					<coverage>0.15</coverage>
+					<height>Bottom</height>
+                    <groups>
+                        <li>Legs</li>
+                    </groups>
+					<parts>
+						<li>
+							<def>CosRim_AutomatonFoot</def>
+							<customLabel>rear right wheel</customLabel>
+							<coverage>0.1</coverage>
+                            <groups>
+                                <li>Feet</li>
+                            </groups>
+						</li>
+						<li>
+							<def>CosRim_AutomatonFoot</def>
+							<customLabel>rear left wheel</customLabel>
+							<coverage>0.1</coverage>
+                            <groups>
+                                <li>Feet</li>
+                            </groups>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>CosRim_AutomatonLeg</def>
+					<customLabel>front axle</customLabel>
+					<coverage>0.15</coverage>
+					<height>Bottom</height>
+                    <groups>
+                        <li>Legs</li>
+                    </groups>
+					<parts>
+						<li>
+							<def>CosRim_AutomatonFoot</def>
+							<customLabel>front right wheel</customLabel>
+							<coverage>0.1</coverage>
+                            <groups>
+                                <li>Feet</li>
+                            </groups>
+						</li>
+						<li>
+							<def>CosRim_AutomatonFoot</def>
+							<customLabel>front left wheel</customLabel>
+							<coverage>0.1</coverage>
+                            <groups>
+                                <li>Feet</li>
+                            </groups>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>CosRim_AutomatonReactor</def>
+					<coverage>0.05</coverage>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+				<li>
+					<def>CosRim_AutomatonFluidReprocessor</def>
+					<customLabel>right fluid reprocessor</customLabel>
+					<coverage>0.05</coverage>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+				<li>
+					<def>CosRim_AutomatonFluidReprocessor</def>
+					<customLabel>left fluid reprocessor</customLabel>
+					<coverage>0.05</coverage>
+					<depth>Inside</depth>
+					<groups>
+						<li>Torso</li>
+					</groups>
+				</li>
+			</parts>
+		</corePart>
+	</BodyDef>
+</Defs>

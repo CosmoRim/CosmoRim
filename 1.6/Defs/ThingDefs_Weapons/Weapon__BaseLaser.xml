@@ -74,10 +74,10 @@
 		<label>laser beam</label>
 	 
 		<graphicData>
-			<texPath>StarGothic/Projectiles/Las</texPath>
+			<texPath>CosmoRim/Projectiles/Las</texPath>
 		</graphicData>
 		<textures Inherit="False">
-			<li>StarGothic/Projectiles/Las</li>
+			<li>CosmoRim/Projectiles/Las</li>
 		</textures>
 		
 		<projectile>

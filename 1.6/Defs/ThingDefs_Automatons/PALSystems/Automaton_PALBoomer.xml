@@ -2,8 +2,8 @@
 <Defs>
 
 	<ThingDef ParentName="AsimovAutomatonBase">
-		<defName>CosRim_PALCleaner</defName>
-		<label>PAL Cleaner</label>
+		<defName>CosRim_PALBoomer</defName>
+		<label>PAL Boomer</label>
 		<description>TODO</description>
 		<statBases>
 			<MoveSpeed>5.3</MoveSpeed>
@@ -24,8 +24,8 @@
 			</li>
 		</tools>
 		<race>
-			<body>OuterRim_QuadWheeledDroid</body>
-			<baseBodySize>0.5</baseBodySize>
+			<body>CosRim_QuadWheeledAutomaton</body>
+			<baseBodySize>0.3</baseBodySize>
 			<lifeStageAges>
 				<li>
 					<def>MechanoidFullyFormed</def>
@@ -54,6 +54,7 @@
 				<skillLossMulti>0</skillLossMulti>
 				<defaultSkillLevel>0</defaultSkillLevel>
 				<enabledWorkTypes>
+					<li>Hauling</li>
 					<li>Cleaning</li>
 				</enabledWorkTypes>
 				<repairThings>
@@ -81,17 +82,17 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AsimovAutomatonKindBase">
-		<defName>CosRim_PALCleaner</defName>
-		<label>PAL Cleaner</label>
-		<race>CosRim_PALCleaner</race>
+		<defName>CosRim_PALBoomer</defName>
+		<label>PAL Boomer</label>
+		<race>CosRim_PALBoomer</race>
 		<combatPower>99999</combatPower>
 		<isFighter>false</isFighter>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>CosmoRim/Pawn/Automaton/PAL/Cleaner/PALCleaner</texPath>
+					<texPath>CosmoRim/Pawn/Automaton/PAL/Boomer/PALBoomer</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
-					<drawSize>2.5</drawSize>
+					<drawSize>0.9</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
 					</shadowData>

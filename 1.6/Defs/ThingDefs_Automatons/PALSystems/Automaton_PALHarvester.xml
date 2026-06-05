@@ -24,7 +24,7 @@
 			</li>
 		</tools>
 		<race>
-			<body>OuterRim_QuadWheeledDroid</body>
+			<body>CosRim_QuadWheeledAutomaton</body>
 			<baseBodySize>0.5</baseBodySize>
 			<lifeStageAges>
 				<li>

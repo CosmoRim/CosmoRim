@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="CosRim_MediumArmorFabricatedBase">
+		<defName>CosRim_SpaceMarineCuirass</defName>
+		<label>space marine cuirass</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/SpaceMarine/Standard_Cuirass/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(153, 80, 67)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_ImperialArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>ImperialApparel</li>
+				<li>ImperialSpaceMarine</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/SpaceMarine/Standard_Cuirass/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(153, 80, 67)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRim_MediumPauldronsFabricatedBase">
+		<defName>CosRim_SpaceMarinePauldrons</defName>
+		<label>space marine pauldrons</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/SpaceMarine/Standard_Pauldrons/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(153, 80, 67)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_ImperialArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>ImperialApparel</li>
+				<li>ImperialSpaceMarine</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/SpaceMarine/Standard_Pauldrons/Apparel</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(153, 80, 67)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRim_MediumHelmetFabricatedBase">
+		<defName>CosRim_SpaceMarineHelmet</defName>
+		<label>space marine helmet</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/SpaceMarine/Standard_Helmet/Head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(153, 80, 67)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_ImperialArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>ImperialApparel</li>
+				<li>ImperialSpaceMarine</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/SpaceMarine/Standard_Helmet/Head</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(153, 80, 67)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+</Defs>

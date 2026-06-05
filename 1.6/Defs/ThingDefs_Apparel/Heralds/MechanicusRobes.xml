@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="CosRim_UniformBodyFabricatedBase">
+		<defName>CosRim_MechanicusRobes</defName>
+		<label>mechanicus robes</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/Mechanicus/Robes/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(171, 82, 82)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_ImperialArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>MechanicusTechPriest</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/Mechanicus/Robes/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(171, 82, 82)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRim_MediumPauldronsFabricatedBase">
+		<defName>CosRim_MechanicusPauldrons</defName>
+		<label>mechanicus pauldrons</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/Mechanicus/Pauldrons/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(255, 255, 255)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_ImperialArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>MechanicusTechPriest</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/Mechanicus/Pauldrons/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(255, 255, 255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRim_UniformHeadwearFabricatedBase">
+		<defName>CosRim_MechanicusHood</defName>
+		<label>mechanicus hood</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/Mechanicus/Hood/Head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(171, 82, 82)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_ImperialArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>MechanicusTechPriest</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/Mechanicus/Hood/Head</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(171, 82, 82)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>CosRim_Afriel</defName>
+		<label>afriel</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>CosmoRim/XenotypeIcons/Xenotype_Afriel</iconPath>
+		<inheritable>true</inheritable>
+		<combatPowerFactor>1.2</combatPowerFactor>
+		<genes>
+			<li>Body_Standard</li>
+			<li>Body_Hulk</li>
+			<li>Skin_SheerWhite</li>
+			<li>Hair_SnowWhite</li>
+			<li>Eyes_Gray</li>
+			<li>AptitudeRemarkable_Shooting</li>
+			<li>AptitudeRemarkable_Melee</li>
+			<li>Outland_AcceleratedAgeing</li>
+			<!-- TODO: <li>Outland_RageAttractor</li> - Results in non-afriel colonists commonly starting social fights with them. -->
+			<!-- TODO: <li>Outland_UnluckyWorker</li> - Never gains inspirations, and has -25% chance of completing non-combat checks. -->
+		</genes>
+	</XenotypeDef>
+
+	<!-- TODO: Additional details for beastmen, some horns wouldn't hurt either. -->
+
+	<XenotypeDef>
+		<defName>CosRim_Beastman</defName>
+		<label>beastman</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>CosmoRim/XenotypeIcons/Xenotype_Beastman</iconPath>
+		<inheritable>true</inheritable>
+		<combatPowerFactor>1.1</combatPowerFactor>
+		<genes>
+			<li>Body_Standard</li>
+			<!-- <li>CosRim_BeastmanHead</li>
+			<li>CosRim_BeastmanHair</li>
+			<li>CosRim_BeastmanBeards</li> -->
+			<li>Outland_Headbone_Forward</li>
+			<li>Outland_BumFluff</li>
+			<li>Outland_HoovedFeet</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
+		<defName>CosRim_Ogryn</defName>
+		<label>ogryn</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>CosmoRim/XenotypeIcons/Xenotype_Ogryn</iconPath>
+		<inheritable>true</inheritable>
+		<combatPowerFactor>1.1</combatPowerFactor>
+		<genes>
+			<li>Body_Hulk</li>
+			<li>Jaw_Heavy</li>
+			<li>Brow_Heavy</li>
+			<li>StrongStomach</li>
+			<li>RobustDigestion</li>
+			<li>Unstoppable</li>
+			<li>Pain_Reduced</li>
+			<li>Robust</li>
+			<li>Learning_Slow</li>
+			<li>Immunity_Strong</li>
+			<li>MeleeDamage_Strong</li>
+			<li>AptitudeRemarkable_Crafting</li>
+			<li>AptitudeRemarkable_Melee</li>
+			<li>AptitudeRemarkable_Mining</li>
+			<li>AptitudePoor_Construction</li>
+			<li>AptitudeTerrible_Social</li>
+			<li>AptitudeTerrible_Intellectual</li>
+			<li>AptitudeTerrible_Medicine</li>
+			<li>AptitudeTerrible_Animals</li>
+			<li>AptitudeTerrible_Plants</li>
+			<li>AptitudeTerrible_Crafting</li>
+			<li>AptitudeTerrible_Cooking</li>
+		</genes>
+		<forbiddenWeaponClasses>
+			<li>RangedLight</li>
+			<li>LongShots</li>
+		</forbiddenWeaponClasses>
+	</XenotypeDef>
+
+</Defs>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="CosRim_MediumArmorFabricatedBase">
+		<defName>CosRim_GuardsmanCuirass</defName>
+		<label>guardsman cuirass</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/Guardsman/Armor/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(107, 143, 103)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_ImperialArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>ImperialApparel</li>
+				<li>ImperialGuardsman</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/Guardsman/Armor/Apparel</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(107, 143, 103)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRim_MediumPauldronsFabricatedBase">
+		<defName>CosRim_GuardsmanPauldrons</defName>
+		<label>guardsman pauldrons</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/Guardsman/Pauldrons/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(107, 143, 103)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_ImperialArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>ImperialApparel</li>
+				<li>ImperialGuardsman</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/Guardsman/Pauldrons/Apparel</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(107, 143, 103)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="CosRim_MediumHelmetFabricatedBase">
+		<defName>CosRim_GuardsmanHelmet</defName>
+		<label>guardsman helmet</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/Guardsman/Helmet/Head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(107, 143, 103)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_ImperialArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>ImperialApparel</li>
+				<li>ImperialGuardsman</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/Guardsman/Helmet/Head</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(107, 143, 103)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+</Defs>

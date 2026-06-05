@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="CosRim_UniformBodyFabricatedBase">
+		<defName>CosRim_GuardsmanUniform</defName>
+		<label>guardsman uniform</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/Guardsman/Uniform/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(160, 168, 121)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_ImperialArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>ImperialOfficer</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/Guardsman/Uniform/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(160, 168, 121)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<!-- <ThingDef ParentName="CosRim_UniformHeadwearFabricatedBase">
+		<defName>CosRim_GuardsmanCap</defName>
+		<label>guardsman uniform cap</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/Guardsman/UniformCap/Head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(160, 168, 121)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_ImperialArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>ImperialOfficer</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/Guardsman/UniformCap/Head</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(160, 168, 121)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef> -->
+
+</Defs>

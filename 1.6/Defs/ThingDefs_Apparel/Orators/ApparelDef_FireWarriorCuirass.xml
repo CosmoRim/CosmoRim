@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="CosRim_MediumArmorFabricatedBase">
+		<defName>CosRim_FireWarriorCuirass</defName>
+		<label>fire warrior cuirass</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/FireWarrior/Cuirass/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(201, 174, 93)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_TauArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>TauApparel</li>
+				<li>TauWarrior</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/FireWarrior/Cuirass/Apparel</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options" Inherit="False">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(201, 174, 93)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+</Defs>

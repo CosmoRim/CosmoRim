@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="CosRim_MediumPauldronsFabricatedBase">
+		<defName>CosRim_FireWarriorPauldrons</defName>
+		<label>fire warrior pauldrons</label>
+		<description>TODO</description>
+		<graphicData>
+			<texPath>CosmoRim/Apparel/FireWarrior/Pauldrons/Apparel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(201, 174, 93)</color>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>CosRim_TauArmory</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="False">
+				<li>TauApparel</li>
+				<li>TauWarrior</li>
+			</tags>
+			<wornGraphicPath>CosmoRim/Apparel/FireWarrior/Pauldrons/Apparel</wornGraphicPath>
+			<useWornGraphicMask>false</useWornGraphicMask>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(201, 174, 93)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+	
+</Defs>

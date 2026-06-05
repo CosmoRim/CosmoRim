@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ====== Tau Research ====== -->
+
+	<ResearchProjectDef ParentName="CosRim_ResearchBaseMain">
+		<defName>CosRim_TauManufacturing</defName>
+		<label>Tau Manufacturing</label>
+		<description>Unlocks the crafting of many Tau Empire basic items and equipment.</description>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+		<ResearchProjectDef ParentName="CosRim_ResearchBaseMain">
+			<defName>CosRim_TauArmory</defName>
+			<label>Tau Armory</label>
+			<description>Unlocks the crafting of equipment for Tau Fire caste.</description>
+			<prerequisites>
+				<li>CosRim_TauManufacturing</li>
+			</prerequisites>
+			<researchViewX>5</researchViewX>
+			<researchViewY>0</researchViewY>
+		</ResearchProjectDef>
+
+		<ResearchProjectDef ParentName="CosRim_ResearchBaseMain">
+			<defName>CosRim_TauHeavyArmory</defName>
+			<label>Tau Heavy Armory</label>
+			<description>Unlocks the crafting of Tau battlesuits.</description>
+			<prerequisites>
+				<li>CosRim_TauArmory</li>
+			</prerequisites>
+			<researchViewX>5</researchViewX>
+			<researchViewY>0.5</researchViewY>
+		</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="CosRim_ResearchBaseMain">
+		<defName>CosRim_TauEngineering</defName>
+		<label>Tau Engineering</label>
+		<description>Unlocks the crafting of many Tau Empire structural and mechanical constructs.</description>
+		<prerequisites>
+			<li>CosRim_TauManufacturing</li>
+		</prerequisites>
+		<researchViewX>4</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+		<ResearchProjectDef ParentName="CosRim_ResearchBaseMain">
+			<defName>CosRim_TauHeavyEngineering</defName>
+			<label>Tau Heavy Engineering</label>
+			<description>Unlocks the crafting of many Tau Empire structural and mechanical constructs.</description>
+			<prerequisites>
+				<li>CosRim_TauEngineering</li>
+			</prerequisites>
+			<researchViewX>5</researchViewX>
+			<researchViewY>1</researchViewY>
+		</ResearchProjectDef>
+
+</Defs>

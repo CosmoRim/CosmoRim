@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<XenotypeDef>
+		<defName>CosRim_Tau</defName>
+		<label>tau</label>
+		<description>TODO</description>
+		<descriptionShort>TODO</descriptionShort>
+		<iconPath>CosmoRim/XenotypeIcons/Tau</iconPath>
+		<inheritable>true</inheritable>
+		<combatPowerFactor>0.8</combatPowerFactor>
+		<genes>
+			<li>Hair_BaldOnly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Body_Standard</li>
+			<li>Body_Thin</li>
+			<li>Skin_Blue</li>
+			<li>Delicate</li>
+			<li>AptitudeRemarkable_Intellectual</li>
+			<li>AptitudeRemarkable_Crafting</li>
+			<li>AptitudeTerrible_Melee</li>
+			<li>CosRim_FacialSlit</li>
+			<li>Outland_AcceleratedAgeing</li>
+			<li>Outland_HoovedFeet</li>
+		</genes>
+	</XenotypeDef>
+
+</Defs>

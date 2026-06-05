@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="BenchBase">
+		<defName>CosRim_AltarOfCreation</defName>
+		<label>altar of creation</label>
+		<description>A workbench of Necroid design, specifcally built to be capable standard Necroid production.</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<graphicData>
+			<texPath>CosmoRim/Buildings/Production/CreationAltar</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<WorkToBuild>5000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(3,2)</size>
+		<costList>
+			<Steel>220</Steel>
+			<ComponentSpacer>6</ComponentSpacer>
+		</costList>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>500</basePowerConsumption>
+				<shortCircuitInRain>true</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Flickable" />
+			<li Class="CompProperties_Breakdownable" />
+		</comps>
+		<recipes>
+		</recipes>
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+		</building>
+		<fillPercent>0.5</fillPercent>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<hasInteractionCell>true</hasInteractionCell>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>CosRim_CosmoRim</designationCategory>
+		<surfaceType>Item</surfaceType>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
+		<!-- <researchPrerequisites>
+			<li>O21_Halo_UNSCArmory</li>
+		</researchPrerequisites> -->
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_SubcategoryDisplay">
+				<subcategories>
+					<li>Production</li>
+				</subcategories>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>
